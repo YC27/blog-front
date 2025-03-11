@@ -4,7 +4,7 @@ import {errorMsg} from "./box.js";
 import router from "../router/index.js";
 
 const service = axios.create({
-    // baseURL: "http://localhost:8081/",
+    baseURL: "http://URL:8081/",
     timeout: 5000,
 })
 
