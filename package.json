@@ -1,0 +1,35 @@
+{
+  "name": "blog-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@kangc/v-md-editor": "^2.3.17",
+    "axios": "^1.5.1",
+    "element-plus": "^2.4.1",
+    "katex": "^0.16.9",
+    "md-editor-v3": "^4.8.2",
+    "mermaid": "^10.6.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "prettier": "^3.0.3",
+    "prismjs": "^1.29.0",
+    "screenfull": "^6.0.2",
+    "vite-plugin-prismjs": "^0.0.8",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vue3-smooth-scroll": "^0.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5",
+    "vite-plugin-cdn-import": "^0.3.5",
+    "vite-plugin-prismjs": "^0.0.8"
+  }
+}
